@@ -3,14 +3,14 @@
     <PropertyGroup>
         <OutputType>Exe</OutputType>
         <Description>CLI tool that installs a certificate to the specified store (defaults to My).</Description>
-        <RepositoryUrl>https://github.com/gsoft-inc/dotnet-certificate-tool</RepositoryUrl>
+        <RepositoryUrl>https://github.com/dradovic/dotnet-certificate-tool</RepositoryUrl>
         <TargetFrameworks>net7.0;net6.0;net5.0;netcoreapp3.1</TargetFrameworks>
     </PropertyGroup>
 
     <PropertyGroup>
         <PackAsTool>true</PackAsTool>
-        <PackageId>dotnet-certificate-tool</PackageId>
-        <ToolCommandName>certificate-tool</ToolCommandName>
+        <PackageId>dotnet-certificate-tool-net7</PackageId>
+        <ToolCommandName>certificate-tool-net7</ToolCommandName>
         <PackageOutputPath>./nupkg</PackageOutputPath>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
